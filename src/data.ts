@@ -1164,7 +1164,10 @@ export const techBadges = [
 
 // ---------------------------------------------------------------- github
 
-export const githubPlaceholder = 'your-username/your-repo-name'
+export const githubPlaceholder = {
+  frontend:'Omar-Abosea3/final-norpetco-frontend-project',
+  backend:'Omar-Abosea3/final-norpetco-backend-project',
+};
 
 export const whatIBuilt = [
   'A production payroll suite where finance imports monthly payroll, bonuses, allowances and deductions straight from the company Excel/CSV exports.',
