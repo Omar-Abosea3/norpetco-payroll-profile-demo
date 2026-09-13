@@ -1,4 +1,4 @@
-import { metrics, whatIBuilt, projectName, githubPlaceholder, apiBaseUrl } from '../data'
+import { metrics, whatIBuilt, projectName, githubPlaceholder} from '../data'
 import { SectionHeader, Reveal } from './ui'
 
 export function Footer() {
@@ -41,7 +41,7 @@ export function Footer() {
               <h3 style={{ fontSize: 18 }}>Interested in the full story?</h3>
               <p style={{ maxWidth: 560, margin: '6px auto 18px' }}>
                 {projectName} — REST API on Express 5 + MongoDB, React SPA on Vite, LVAP-style AD login, RBAC,
-                Excel import pipelines and PDF reporting. Live API: <code style={{ fontFamily: 'var(--mono)' }}>{apiBaseUrl}</code>.
+                Excel import pipelines and PDF reporting. Live Production: <code style={{ fontFamily: 'var(--mono)' }}>http://fin.norpetco.com</code>.
               </p>
               <div className="hero-actions" style={{ justifyContent: 'center' }}>
                 <a className="btn btn-primary" href={`https://github.com/${githubPlaceholder}`} target="_blank" rel="noreferrer">
